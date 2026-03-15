@@ -1,0 +1,51 @@
+# MINERALCO Configuration File
+# Version: 1.0.0
+
+project:
+  name: "MINERALCO"
+  version: "1.0.0"
+  data_dir: "./data"
+  output_dir: "./output"
+  log_dir: "./logs"
+
+data_sources:
+  mineral_db:
+    enabled: true
+    source: "stixrude_2011"
+    local_path: "./data/cis_database.json"
+  
+  synchrotron:
+    enabled: true
+    sources: ["aps", "esrf", "spring8"]
+    local_path: "./data/synchrotron"
+
+processing:
+  eos_fitter:
+    method: "BM3"
+    fitting_algorithm: "levenberg_marquardt"
+    uncertainty_propagation: true
+  
+  thermal_corrector:
+    enabled: true
+    model: "mie_gruneisen"
+    debye_model: true
+    q_exponent: 1.5
+
+csi:
+  weights:
+    K0: 0.28
+    Vs: 0.19
+    Kprime: 0.17
+    Sy: 0.13
+    alpha: 0.10
+    gamma: 0.09
+    U_lattice: 0.04
+  
+  thresholds:
+    stable: 0.65
+    metastable: 0.85
+    transition: 0.85
+
+logging:
+  level: "INFO"
+  file: "./logs/mineralco.log"

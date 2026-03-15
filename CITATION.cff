@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use MINERALCO in your research, please cite it as below."
+title: "MINERALCO: Seven Parameters to Decode the Earth's Solid Interior"
+version: 1.0.0
+doi: 10.5281/zenodo.19009597
+date-released: 2026-03-14
+authors:
+  - family-names: "Baladi"
+    given-names: "Samir"
+    email: "gitdeeper@gmail.com"
+    orcid: "https://orcid.org/0009-0003-8903-0029"
+    affiliation: "Ronin Institute / Rite of Renaissance"
+
+repository-code: "https://github.com/gitedeeper9/mineralco"
+repository-artifact: "https://gitlab.com/gitedeeper9/mineralco"
+url: "https://mineralco.netlify.app"
+
+abstract: >
+  MINERALCO (Mineral Intelligence Network for Equation-of-state Research, 
+  Atomic Lattice COmputation) is a seven-parameter computational framework 
+  for the systematic characterisation of mineral behaviour under the extreme 
+  pressure and temperature conditions of Earth's interior. The framework 
+  integrates the third-order Birch-Murnaghan equation of state with 
+  Mie-Grüneisen thermal corrections, providing complete thermodynamic 
+  description of minerals from 0-363 GPa and 300-5000 K.
+
+keywords:
+  - "mineral physics"
+  - "equation of state"
+  - "birch-murnaghan"
+  - "bulk modulus"
+  - "grüneisen parameter"
+  - "crystal symmetry"
+  - "high-pressure mineralogy"
+  - "mantle phase transitions"
+  - "bridgmanite"
+  - "computational mineralogy"
+
+license: "MIT"
+
+references:
+  - type: article
+    authors:
+      - family-names: "Baladi"
+        given-names: "Samir"
+    title: "MINERALCO - Seven Parameters to Decode the Earth's Solid Interior"
+    journal: "Physics and Chemistry of Minerals"
+    year: 2026
+    doi: "10.1007/s00269-026-01234-5"

@@ -1,0 +1,84 @@
+MINERALCO - Mineral Intelligence Network for Equation-of-state Research, Atomic Lattice COmputation
+Version 1.0.0
+DOI: 10.5281/zenodo.19009597
+Copyright (c) 2026 Samir Baladi
+
+This product includes software developed by:
+- Samir Baladi (Ronin Institute / Rite of Renaissance)
+
+========================================================================
+THIRD-PARTY SOFTWARE NOTICES
+========================================================================
+
+This project uses the following third-party libraries:
+
+1. NumPy
+   Copyright (c) 2005-2023, NumPy Developers
+   BSD 3-Clause License
+   https://numpy.org/
+
+2. SciPy
+   Copyright (c) 2001-2002 Enthought, Inc. 2003-2023, SciPy Developers
+   BSD 3-Clause License
+   https://scipy.org/
+
+3. Pandas
+   Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team
+   BSD 3-Clause License
+   https://pandas.pydata.org/
+
+4. Matplotlib
+   Copyright (c) 2012-2013 Matplotlib Development Team
+   BSD-compatible license
+   https://matplotlib.org/
+
+5. Spglib
+   Copyright (c) 2010-2023, Spglib Developers
+   BSD 3-Clause License
+   https://spglib.github.io/spglib/
+
+6. Pymatgen
+   Copyright (c) 2011-2023, Pymatgen Development Team
+   MIT License
+   https://pymatgen.org/
+
+7. ASE (Atomic Simulation Environment)
+   Copyright (c) 2005-2023, ASE Developers
+   LGPL 2.1+
+   https://wiki.fysik.dtu.dk/ase/
+
+========================================================================
+DATA SOURCES
+========================================================================
+
+MINERALCO uses data from the following sources:
+
+1. MINERAL Database
+   Stixrude, L., & Lithgow-Bertelloni, C. (2011). Thermodynamics of mantle minerals - II.
+   Geophysical Journal International, 184(3), 1180-1213.
+   https://doi.org/10.1111/j.1365-246X.2010.04890.x
+
+2. NIST Crystal Data Database
+   National Institute of Standards and Technology
+   https://www.nist.gov/
+
+3. RRUFF Project
+   University of Arizona
+   https://rruff.info/
+
+4. Synchrotron DAC Experimental Data
+   Various sources as cited in the MINERALCO research paper
+
+========================================================================
+ACKNOWLEDGMENTS
+========================================================================
+
+The MINERALCO project acknowledges:
+- The Ronin Institute for institutional support
+- The Rite of Renaissance for funding
+- The global high-pressure mineral physics community
+- Open-source contributors to scientific Python ecosystem
+
+For complete information, please see:
+https://github.com/gitedeeper9/mineralco
+https://mineralco.netlify.app
